@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(172, 246, 248);
+    background-position: 0 0, 0,0;
+    background-size: 21px 21px;
+}
+.bg-dark {
+    background-color:rgb(244, 174, 174) !important;
+}
+
+.student{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:whitesmoke ;
+}
+.box{
+    /* border:2px solid black; */
+    height:300px;
+    width:23%;
+    background-color: rgba(244, 220, 220, 0.996);
+    padding:20px 0px 15px;
+    margin-top: 15px;
+} 
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-img{
+    height:250px;
+   background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+ }

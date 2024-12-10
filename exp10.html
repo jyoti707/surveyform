@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> students Survey form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="exp10.css">
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row-md-10 bg-dark text-black p-10">
+           <center><H1>STUDENTS SURVEY FORM</H1><br>
+        <h3>ABES ENGINEERING COLLEGE</h3></center> 
+            <div class="student">
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-img" style="background-image: url('images.jpg');"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-img" style="background-image: url('images\ \(3\).jpg');"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-img" style="background-image: url('images\ \(5\).jpg');"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-img" style="background-image: url('download.jpg');"></div>
+                    </div>
+                </div>
+                
+            </div>
+            <br>
+            <div class="mb-3 hi">
+                <label for="formGroupExampleInput" class="form-label">Name:</label>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Middle name" aria-label="Middle name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                </div>
+                <br>
+                
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="dob" class="form-label">Date of Birth:</label>
+                    <input type="date" class="form-control" id="dob">
+                
+                        </div>
+                        <div class="col-md-6">
+                            <label for="year" class="form-label">How long have you been a student here?:</label>
+                            <select class="form-select" id="year">
+                                <option selected disabled>please select</option>
+                                <option value="Year">less than 6 month</option>
+                                <option value="Year">more than 1 year</option>
+                                <option value="Year">more than 4 year</option>
+                            </select>
+                        </div>
+                    </div><br><br>
+                    <center><h4>Please rate the following aspects of your education.</h4></center>
+                    <div class="container my-4">
+                        <h5 class="mb-3">Curriculum and classes for the term</h5>
+                        <table class="table table-bordered align-middle">
+                          <thead class="table-light">
+                            <tr>
+                              <th>Question</th>
+                              <th>Strongly Disagree</th>
+                              <th>Disagree</th>
+                              <th>Neutral</th>
+                              <th>Agree</th>
+                              <th>Strongly Agree</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>The class descriptions accurately described the content.</td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                            </tr>
+                            <tr>
+                              <td>I was academically prepared for the classes.</td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                            </tr>
+                            <tr>
+                              <td>The class sizes were appropriate.</td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                            </tr>
+                            <tr>
+                                <td>The classes started and ended on time.</td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                              </tr>
+                              <tr>
+                                <td>The classes increased my knowledge of the subject matter.</td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                              </tr>
+                              <tr>
+                                <td>The overall quality of the classes was excellent.</td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                              </tr>
+                              <tr>
+                                <td>I would recommend these classes to other students.</td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                                <td><input type="radio" name="q3" class="form-check-input"></td>
+                              </tr>
+                            
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="container my-4">
+                        <h5 class="mb-3">Materials</h5>
+                        <table class="table table-bordered align-middle">
+                          <thead class="table-light">
+                            <tr>
+                              <th>Question</th>
+                              <th>Strongly Disagree</th>
+                              <th>Disagree</th>
+                              <th>Neutral</th>
+                              <th>Agree</th>
+                              <th>Strongly Agree</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>The objectives and requirements for the classes were clearly stated.</td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                              <td><input type="radio" name="q1" class="form-check-input"></td>
+                            </tr>
+                            <tr>
+                              <td>The textbook and study material were relevant and useful.</td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                              <td><input type="radio" name="q2" class="form-check-input"></td>
+                            </tr>
+                            <tr>
+                              <td>Tests and assignments were based on material covered in class.</td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                              <td><input type="radio" name="q3" class="form-check-input"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                  </div>
+                  <div class="container my-4">
+                    <h5 class="mb-3">Instructions</h5>
+                    <table class="table table-bordered align-middle">
+                      <thead class="table-light">
+                        <tr>
+                          <th>Question</th>
+                          <th>Strongly Disagree</th>
+                          <th>Disagree</th>
+                          <th>Neutral</th>
+                          <th>Agree</th>
+                          <th>Strongly Agree</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>The instructor were qualified to teach these classes.</td>
+                          <td><input type="radio" name="q1" class="form-check-input"></td>
+                          <td><input type="radio" name="q1" class="form-check-input"></td>
+                          <td><input type="radio" name="q1" class="form-check-input"></td>
+                          <td><input type="radio" name="q1" class="form-check-input"></td>
+                          <td><input type="radio" name="q1" class="form-check-input"></td>
+                        </tr>
+                        <tr>
+                          <td>The instructor demonstrate enthusiasm for the subject matter.</td>
+                          <td><input type="radio" name="q2" class="form-check-input"></td>
+                          <td><input type="radio" name="q2" class="form-check-input"></td>
+                          <td><input type="radio" name="q2" class="form-check-input"></td>
+                          <td><input type="radio" name="q2" class="form-check-input"></td>
+                          <td><input type="radio" name="q2" class="form-check-input"></td>
+                        </tr>
+                        <tr>
+                          <td>The instructor were available and helpful to students outside of the class.</td>
+                          <td><input type="radio" name="q3" class="form-check-input"></td>
+                          <td><input type="radio" name="q3" class="form-check-input"></td>
+                          <td><input type="radio" name="q3" class="form-check-input"></td>
+                          <td><input type="radio" name="q3" class="form-check-input"></td>
+                          <td><input type="radio" name="q3" class="form-check-input"></td>
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+              <div class="container my-4">
+                <h5 class="mb-3">School environment</h5>
+                <table class="table table-bordered align-middle">
+                  <thead class="table-light">
+                    <tr>
+                      <th>Question</th>
+                      <th>Strongly Disagree</th>
+                      <th>Disagree</th>
+                      <th>Neutral</th>
+                      <th>Agree</th>
+                      <th>Strongly Agree</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>The physical classroom environments were clean and comfortable.</td>
+                      <td><input type="radio" name="q1" class="form-check-input"></td>
+                      <td><input type="radio" name="q1" class="form-check-input"></td>
+                      <td><input type="radio" name="q1" class="form-check-input"></td>
+                      <td><input type="radio" name="q1" class="form-check-input"></td>
+                      <td><input type="radio" name="q1" class="form-check-input"></td>
+                    </tr>
+                    <tr>
+                      <td>Library and onsite computer were consistently were available.</td>
+                      <td><input type="radio" name="q2" class="form-check-input"></td>
+                      <td><input type="radio" name="q2" class="form-check-input"></td>
+                      <td><input type="radio" name="q2" class="form-check-input"></td>
+                      <td><input type="radio" name="q2" class="form-check-input"></td>
+                      <td><input type="radio" name="q2" class="form-check-input"></td>
+                    </tr>
+                    <tr>
+                      <td>The common space were clean and comfortable.</td>
+                      <td><input type="radio" name="q3" class="form-check-input"></td>
+                      <td><input type="radio" name="q3" class="form-check-input"></td>
+                      <td><input type="radio" name="q3" class="form-check-input"></td>
+                      <td><input type="radio" name="q3" class="form-check-input"></td>
+                      <td><input type="radio" name="q3" class="form-check-input"></td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-bold">How likely are you to recommend our school to a friend or colleague?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="recommend" id="very-likely" value="very-likely">
+              <label class="form-check-label" for="very-likely">Very likely</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="recommend" id="somewhat-likely" value="somewhat-likely">
+              <label class="form-check-label" for="somewhat-likely">Somewhat likely</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="recommend" id="unsure" value="unsure">
+              <label class="form-check-label" for="unsure">Unsure</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="recommend" id="not-very-likely" value="not-very-likely">
+              <label class="form-check-label" for="not-very-likely">Not very likely</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="recommend" id="not-likely" value="not-likely">
+              <label class="form-check-label" for="not-likely">Not likely</label>
+            </div>
+          </div>
+  
+          
+          <div class="mb-3">
+            <label for="why-not" class="form-label fw-bold">If not, why?</label>
+            <textarea class="form-control" id="why-not" name="why-not" rows="3" placeholder="Your response..."></textarea>
+          </div>
+  
+          
+          <div class="mb-3">
+            <label for="suggestions" class="form-label fw-bold">What could we do to increase your level of satisfaction?</label>
+            <textarea class="form-control" id="suggestions" name="suggestions" rows="3" placeholder="Your suggestions..."></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="suggestions" class="form-label fw-bold">Additional comments</label>
+            <textarea class="form-control" id="suggestions" name="suggestions" rows="3" placeholder="Your suggestions..."></textarea>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </div>
+            
+        </div>
+    </div>
+</body>
+</html>
